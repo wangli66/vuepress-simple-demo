@@ -4,9 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "docs:build": "vuepress build docs",
-    "docs:build-preview": "vuepress build docs && anywhere -d docs/dist/",
     "docs:dev": "vuepress dev docs --no-cache --debug"
   },
   "author": "",
