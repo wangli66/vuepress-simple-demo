@@ -7,7 +7,7 @@ vuepress-simple-demo vuepress 一个简单的 demo
   - vue 组件示例一次编写，即可直观展示效果，也能看到具体代码
   - 将文件内的标题，从左侧移到右侧，更为明了（个人喜好）
 
-demo：
+[demo 地址](https://wangli66.github.io/vuepress-simple-demo/dist/)
 
 使用：可以用 npm 或 yarn
 
