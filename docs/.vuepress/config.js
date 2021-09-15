@@ -8,7 +8,6 @@ module.exports = {
     // 如果不想将文档的小标题移到右侧，请去掉plugins中的vuepress-theme-vdoing，注释掉theme: "vdoing",
     plugins: ["demo-container", "vuepress-theme-vdoing"],
     theme: "vdoing",
-    //   base: "/",
     base: process.env.NODE_ENV === 'production' ? '/vuepress-simple-demo/dist/' : '/',
     themeConfig: {
         logo: "https://vuejs.org/images/logo.png",

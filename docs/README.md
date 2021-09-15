@@ -73,3 +73,18 @@ module.exports = {
 ```
 
 :::
+
+## 部署
+
+- 如果你像我一样，仅仅想要一个随时随地可以浏览的静态网站，可以在 github 上部署，
+  部署时请注意：将.vuepress->config.js 配置文件中的 base 修改为你自己的地址
+
+```js
+// "/vuepress-simple-demo/dist/"修改为你自己的地址，
+// 如果你直接用该项目，没有改变配置文件的配置，可以将vuepress-simple-demo修改为你的库名或项目名就可以
+base: process.env.NODE_ENV === 'production' ? '/vuepress-simple-demo/dist/' : '/',
+```
+
+## 其他
+
+如果你在项目的使用过程中，有什么建议或意见，可以 issue 我
